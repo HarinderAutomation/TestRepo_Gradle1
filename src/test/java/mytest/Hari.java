@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Hari {
 	WebDriver driver;
 	 @Test 
-	    public void testSomeLibraryMethod_33() throws InterruptedException {
+	    public void testSomeLibraryMethod_3() throws InterruptedException {
 	       // Library classUnderTest = new Library();
 	        System.out.println("***********************Hello Harinder_3*********************");
 	        System.setProperty("webdriver.chrome.driver",
