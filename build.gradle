@@ -1,0 +1,79 @@
+apply plugin: 'java'
+
+repositories {
+        mavenCentral()
+}
+ 
+dependencies {
+        testCompileOnly(
+            'junit:junit:4.12'
+    )
+    testImplementation(
+            'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    )
+    testRuntimeOnly(
+            'org.junit.jupiter:junit-jupiter-engine:5.1.0',
+            'org.junit.vintage:junit-vintage-engine:5.1.0'
+    )
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api
+compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '3.9.0'
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server
+compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.9.0'
+
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.9.0'
+
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/tomcat/jasper-runtime
+compile group: 'tomcat', name: 'jasper-runtime', version: '5.5.9'
+
+// https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jasper
+compile group: 'org.apache.tomcat', name: 'tomcat-jasper', version: '9.0.5'
+
+// https://mvnrepository.com/artifact/tomcat/jasper-compiler
+compile group: 'tomcat', name: 'jasper-compiler', version: '5.5.9'
+
+// https://mvnrepository.com/artifact/org.apache.tomcat/jasper
+compile group: 'org.apache.tomcat', name: 'jasper', version: '6.0.47'
+
+}
+test {
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+//sourceSets {
+//    main {
+//       java {
+//           srcDirs "mytest/testRunner"
+//       }
+//	}
+//}
+//task testGroupOne(type: Test) {
+   //include '**/*SuiteOne.*'
+//   include '**/TestRunner.class'
+//   }
+//dependencies {
+//		testCompile group: 'org.testng', name: 'testng', version: '6.14.2'
+//}
+//test {
+//    useJUnitPlatform()
+//   }
+
+//mainClassName = 'src.test.java.TestMain'
+//test {
+//        systemProperties 'property': 'value'
+//}
+//uploadArchives {
+//       repositories {
+//                flatDir {
+//                        dirs 'repos'
+//                }
+//        }
+//}

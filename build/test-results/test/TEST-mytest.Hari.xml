@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mytest.Hari" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-23T13:31:06" hostname="hkaur7-qa" time="7.687">
+  <properties/>
+  <testcase name="testSomeLibraryMethod_3" classname="mytest.Hari" time="7.687"/>
+  <system-out><![CDATA[***********************Hello Harinder_3*********************
+Google chrome selected
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 48929
+Only local connections are allowed.
+May 23, 2018 7:01:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

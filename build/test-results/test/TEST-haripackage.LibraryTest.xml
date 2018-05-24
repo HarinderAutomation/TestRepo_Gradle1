@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="haripackage.LibraryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-23T13:31:06" hostname="hkaur7-qa" time="0.002">
+  <properties/>
+  <testcase name="testSomeLibraryMethod_1" classname="haripackage.LibraryTest" time="0.001"/>
+  <testcase name="testSomeLibraryMethod_2" classname="haripackage.LibraryTest" time="0.0"/>
+  <system-out><![CDATA[***********************Hello Harinder_1*********************
+***********************Hello Harinder_2*********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
