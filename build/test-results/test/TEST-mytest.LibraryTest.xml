@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mytest.LibraryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-23T10:34:38" hostname="hkaur7-qa" time="0.005">
+  <properties/>
+  <testcase name="testSomeLibraryMethod_2" classname="mytest.LibraryTest" time="0.001"/>
+  <testcase name="testSomeLibraryMethod_11" classname="mytest.LibraryTest" time="0.0"/>
+  <testcase name="testSomeLibraryMethod_2" classname="mytest.LibraryTest" time="0.0"/>
+  <testcase name="testSomeLibraryMethod_11" classname="mytest.LibraryTest" time="0.0"/>
+  <system-out><![CDATA[***********************Hello Harinder_2*********************
+***********************Hello Harinder_1*********************
+***********************Hello Harinder_2*********************
+***********************Hello Harinder_1*********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
