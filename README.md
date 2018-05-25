@@ -1,2 +1,2 @@
 # TestRepo_Gradle1
-This repository is about jenkins scheduling when new code update on git hub 54554
+This repository is about jenkins scheduling when new code update on git hub 5455422
