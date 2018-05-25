@@ -14,7 +14,7 @@ public class Test2 {
 	        System.out.println("***********************Hello Harinder_4*********************");
 	        System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + "/BrowserExecutables/chromedriver_win32.exe");
-			System.out.println("Google chrome selected");
+			System.out.println("Google chrome selected ghghgghghghghg");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized");
 	        
